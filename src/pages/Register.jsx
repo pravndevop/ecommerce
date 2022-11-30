@@ -1,9 +1,8 @@
 import React, { Component } from "react";
-import { useNavigate } from "react-router-dom";
+
 
 export default class Register extends Component {
- navigate = useNavigate()
-  //style
+   //style
   inputStyle =
     "border-[2px] border-silver rounded-lg outline-[#8a4af3] p-2 focus:border-[#8a4af3] ease-linear duration-200 min-w-0";
 
@@ -43,7 +42,7 @@ export default class Register extends Component {
     return (
       <div className="flex justify-center w-[100%] h-[100vh]">
         <div className="flex flex-col absolute top-[20%] shadow-lg border-silver border-[2px] bg-white rounded-lg p-5 mobile:w-[90%]">
-          <text className="text-2xl " onClick={()=>navigate('/product')}>REGISTER</text>
+          <text className="text-2xl ">REGISTER</text>
 
           {/* First Name Last Name */}
           <div className="flex mt-7 w-auto">
